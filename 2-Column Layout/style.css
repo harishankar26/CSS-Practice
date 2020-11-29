@@ -26,6 +26,7 @@ body {
     background-color: #fff;
     border-radius: .5em;
     width: 70%;
+    padding: 1.5em;
     }
 
     .sidebar {
@@ -46,4 +47,12 @@ body {
     text-transform: uppercase;
     margin-top:1.5em;
     }
+
+
+    .sponsor-link {
+        display: block;
+        color: #0072b0;
+        font-weight: bold;
+        text-decoration: none;
+        }
 
