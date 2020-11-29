@@ -17,32 +17,21 @@ body {
     border-radius: .5em;
     }
 
-    .wrapper {
-        margin-left: -1.5em;
-        margin-right: -1.5em;
-    }
-
     .container {
-        width: 100%;
-        display: table;
-        border-spacing: 1.5em 0;
+        display: flex;
     }
 
     .main {
-    display: table-cell;
     background-color: #fff;
     border-radius: .5em;
-    float: left;
     width: 70%;
     }
 
     .sidebar {
-    display: table-cell;
+    width: 30%;
     padding: 1.5em;
+    margin-left: 1.5em;
     background-color: #fff;
     border-radius: .5em;
-    float: right;
-    width: calc(30% - 1.5em);
-    margin-left: 1.5em;
 }
 
