@@ -17,6 +17,11 @@ body {
     border-radius: .5em;
     }
 
+    .wrapper {
+        margin-left: -1.5em;
+        margin-right: -1.5em;
+    }
+
     .container {
         width: 100%;
         display: table;
